@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("software-developer-6521720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  /* font-family: cursive; */
+
+
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
+  background-color: #00000035;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: cursive;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+  padding: 0px 35px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+}
+
+li a:hover {
+  background-color: tomato;
+  border-radius: 7px;
+}
+
+#world {
+  width: 25px;
+  filter: invert(100%);
+}
+
+img {
+  width: 25px;
+}
+
+#coder h2 {
+  display: inline;
+  color: tomato;
+  font-family: cursive;
+}
+
+.search {
+  margin-right: 15px;
+
+}
+
+.search button {
+  padding: 7px 18px;
+  margin: -11px;
+  background-color: tomato;
+  border: 1px solid tomato;
+  color: white;
+  border-radius: 0px 0px 7px 0px;
+}
+
+.search input {
+  padding: 6px 8px;
+  margin: 7px;
+  border: 1px solid tomato;
+  color: white;
+  background-color: transparent;
+  border-radius: 0px -1px 7px 0px;
+}
+
+.container {
+  /* border: 2px solid yellow; */
+  height: 90vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  padding: 0px 25px;
+}
+
+.container button {
+  margin-top: 17px;
+  padding: 5px 25px;
+  border-radius: 10px;
+  background-color: tomato;
+  border: 1px solid tomato;
+  cursor: pointer;
+}
+
+#dev {
+  color: tomato;
+}
+
+div h1 {
+  font-size: 40px;
+}
+
+div p {
+  line-height: 25px;
+  margin-top: 10px;
+
+}
+
+#mainp {
+  line-height: 25px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: seashell;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid blueviolet;
+  height: 400px;
+  width: 250px;
+  text-align: center;
+  margin: 75px 45px;
+  border-radius: 10px;
+  background-color: #000000b3;
+  border: 2px solid transparent;
+
+}
+
+#btnloginhere {
+  font-size: 17px;
+  color: tomato;
+  padding: 5px 62px;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+#btnlogin {
+  font-size: 17px;
+  color: black;
+  background-color: tomato;
+  padding: 5px 84px;
+  border-radius: 10px;
+  border: 2px solid tomato;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#signup {
+  color: tomato;
+}
+
+#loginwith {}
+
+.enter {
+  padding: 8px;
+  margin: 11px;
+  padding: 6px 23px;
+  background: transparent;
+  border-bottom: 1px solid tomato;
+  cursor: pointer;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+
+}
+
+#social {
+  width: 200px;
+}
+
+header::before {
+  content: "";
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.91;
+}
